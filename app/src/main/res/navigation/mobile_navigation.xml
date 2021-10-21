@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pdf_test"
+    android:label="Medicine"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.medicalshop.app.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/viewComposition"
+        android:name="com.medicalshop.app.ui.composition.ViewComposition"
+        android:label="Composition"
+        tools:layout="@layout/fragment_view_composition">
+        <action
+            android:id="@+id/action_viewComposition_to_addCompositionFragment"
+            app:destination="@id/addCompositionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/company"
+        android:name="com.medicalshop.app.ui.company.CompanyFragment"
+        android:label="Company"
+        tools:layout="@layout/fragment_company">
+        <action
+            android:id="@+id/action_company_to_addCompanyFragment"
+            app:destination="@id/addCompanyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCompositionFragment"
+        android:name="com.medicalshop.app.ui.composition.AddCompositionFragment"
+        android:label="Add New Composition"
+        tools:layout="@layout/fragment_add_composition">
+        <action
+            android:id="@+id/action_addCompositionFragment_to_viewComposition"
+            app:destination="@id/viewComposition" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCompanyFragment"
+        android:name="com.medicalshop.app.ui.company.AddCompanyFragment"
+        android:label="Add New Company"
+        tools:layout="@layout/fragment_add_company">
+        <action
+            android:id="@+id/action_addCompanyFragment_to_company2"
+            app:destination="@id/company" />
+    </fragment>
+    <fragment
+        android:id="@+id/wholesaler"
+        android:name="com.medicalshop.app.ui.wholesaler.WholesalerFragment"
+        android:label="Wholesaler"
+        tools:layout="@layout/fragment_wholesaler">
+        <action
+            android:id="@+id/action_wholesaler_to_addWholesalerFragment"
+            app:destination="@id/addWholesalerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addWholesalerFragment"
+        android:name="com.medicalshop.app.ui.wholesaler.AddWholesalerFragment"
+        android:label="Add Wholesaler"
+        tools:layout="@layout/fragment_add_wholesaler">
+        <action
+            android:id="@+id/action_addWholesalerFragment_to_wholesaler"
+            app:destination="@id/wholesaler" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicine"
+        android:name="com.medicalshop.app.ui.Medicine.MedicineFragment"
+        android:label="Medicine"
+        tools:layout="@layout/fragment_medicine" >
+        <action
+            android:id="@+id/action_medicine_to_addMedicineFragment"
+            app:destination="@id/addMedicineFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addMedicineFragment"
+        android:name="com.medicalshop.app.ui.Medicine.AddMedicineFragment"
+        android:label="Add New Medicine"
+        tools:layout="@layout/fragment_add_medicine" >
+        <action
+            android:id="@+id/action_addMedicineFragment_to_medicine"
+            app:destination="@id/medicine" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_graphics"
+        android:name="com.medicalshop.app.ui.graphics.Graphics"
+        android:label="GraphicsExample"
+        tools:layout="@layout/fragment_graphics" />
+    <fragment
+        android:id="@+id/stock"
+        android:name="com.medicalshop.app.ui.stock.StockFragment"
+        android:label="Stock"
+        tools:layout="@layout/fragment_stock" >
+        <action
+            android:id="@+id/action_stock_to_addMedicineStock"
+            app:destination="@id/addMedicineStock" />
+    </fragment>
+    <fragment
+        android:id="@+id/addMedicineStock"
+        android:name="com.medicalshop.app.ui.stock.AddMedicineStock"
+        android:label="Add Medicine Stock"
+        tools:layout="@layout/fragment_add_medicine_stock" >
+        <action
+            android:id="@+id/action_addMedicineStock_to_stock"
+            app:destination="@id/stock" />
+    </fragment>
+    <fragment
+        android:id="@+id/pdfTest"
+        android:name="com.medicalshop.app.ui.pdf.PdfTest"
+        android:label="Create PDF"
+        tools:layout="@layout/fragment_pdf_test" />
+</navigation>

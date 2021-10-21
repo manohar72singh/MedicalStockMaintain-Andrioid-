@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/wholesalerViewRecyclerViewItemItemIdTextView"
+        android:layout_width="37dp"
+        android:layout_height="60dp"
+        android:hint="Id"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/wholesalerViewRecyclerViewItemItemNameTextView"
+        android:layout_width="335dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:hint="Name"
+        app:layout_constraintStart_toEndOf="@+id/wholesalerViewRecyclerViewItemItemIdTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/wholesalerViewRecyclerViewItemItemAddressTextView"
+        android:layout_width="165dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:hint="Address"
+        app:layout_constraintStart_toEndOf="@+id/wholesalerViewRecyclerViewItemItemIdTextView"
+        app:layout_constraintTop_toBottomOf="@+id/wholesalerViewRecyclerViewItemItemNameTextView" />
+
+    <TextView
+        android:id="@+id/wholesalerViewRecyclerViewItemItemContectNoTextView"
+        android:layout_width="169dp"
+        android:layout_height="30dp"
+        android:hint="ContectNo"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/wholesalerViewRecyclerViewItemItemAddressTextView"
+        app:layout_constraintTop_toBottomOf="@+id/wholesalerViewRecyclerViewItemItemNameTextView" />
+
+    <TextView
+        android:id="@+id/wholesalerViewRecyclerViewItemItemEditTextView"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_baseline_edit_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/wholesalerViewRecyclerViewItemItemNameTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/wholesalerViewRecyclerViewItemItemDeleteTextView"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_baseline_delete_forever_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/wholesalerViewRecyclerViewItemItemContectNoTextView"
+        app:layout_constraintTop_toBottomOf="@+id/wholesalerViewRecyclerViewItemItemEditTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

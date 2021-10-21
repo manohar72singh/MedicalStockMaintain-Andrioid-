@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".ui.graphics.Graphics"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.medicalshop.app.ui.graphics.MyCustomView
+            android:id="@+id/myCustomView"
+            android:layout_width="3508px"
+            android:layout_height="2480px" />
+
+
+    </RelativeLayout>
+</ScrollView>

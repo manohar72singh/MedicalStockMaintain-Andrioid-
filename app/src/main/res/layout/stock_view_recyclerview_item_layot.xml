@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/stockViewRecyclerViewItemStockIdTextView"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="1dp"
+        android:gravity="center"
+        android:text="Id"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toStartOf="@+id/stockViewRecyclerViewItemMedicineNameTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/stockViewRecyclerViewItemMedicineNameTextView"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="Medicine Name"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/stockViewRecyclerViewItemStockIdTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="1dp"
+        android:gravity="center"
+        android:text="Mfg Date"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView23"
+        app:layout_constraintEnd_toStartOf="@+id/stockViewRecyclerViewItemMedicineMfgDateTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stockViewRecyclerViewItemMedicineNameTextView" />
+
+    <TextView
+        android:id="@+id/stockViewRecyclerViewItemMedicineMfgDateTextView"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="Mfg date"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/stockViewRecyclerViewItemMedicineExpDateTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/stockViewRecyclerViewItemMedicineNameTextView" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="1dp"
+        android:gravity="center"
+        android:text="Exp Date"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView24"
+        app:layout_constraintEnd_toStartOf="@+id/stockViewRecyclerViewItemMedicineExpDateTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/stockViewRecyclerViewItemMedicineExpDateTextView"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="Exp date"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/stockViewRecyclerViewItemMedicineMrpTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/stockViewRecyclerViewItemMedicineMfgDateTextView" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="Mrp"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView26"
+        app:layout_constraintEnd_toStartOf="@+id/stockViewRecyclerViewItemMedicineMrpTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/stockViewRecyclerViewItemMedicineMrpTextView"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="Mrp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/stockViewRecyclerViewItemStockAddedDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/stockViewRecyclerViewItemMedicineExpDateTextView" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="Stock Added"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/stockViewRecyclerViewItemMedicineBatchNoTextView"
+        app:layout_constraintEnd_toStartOf="@+id/stockViewRecyclerViewItemStockAddedDate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+
+    <TextView
+        android:id="@+id/stockViewRecyclerViewItemStockAddedDate"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="Date"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/stockViewRecyclerViewItemMedicineBatchNoTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/stockViewRecyclerViewItemMedicineMrpTextView" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Batch No"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView25"
+        app:layout_constraintEnd_toStartOf="@+id/stockViewRecyclerViewItemMedicineBatchNoTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/stockViewRecyclerViewItemMedicineBatchNoTextView"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="BatchNo"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/stockViewRecyclerViewItemWholesalerNameTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView27"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="1dp"
+        android:gravity="center"
+        android:text="Wholesaler Name"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView28"
+        app:layout_constraintEnd_toStartOf="@+id/stockViewRecyclerViewItemWholesalerNameTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <TextView
+        android:id="@+id/stockViewRecyclerViewItemWholesalerNameTextView"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Wholesaler Name"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/stockViewRecyclerViewItemWholesalerInvoiceNoTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/stockViewRecyclerViewItemMedicineBatchNoTextView" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="1dp"
+        android:gravity="center"
+        android:text="Invoice No"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/stockViewRecyclerViewItemWholesalerInvoiceNoTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/stockViewRecyclerViewItemWholesalerInvoiceNoTextView"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="Wholesaler Invoice No"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView28"
+        app:layout_constraintTop_toBottomOf="@+id/stockViewRecyclerViewItemWholesalerNameTextView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/viewComposition"
+            android:icon="@drawable/ic_baseline_attachment_24"
+            android:title="@string/menu_composition"/>
+        <item
+            android:id="@+id/company"
+            android:icon="@drawable/ic_baseline_home_work_24"
+            android:title="@string/menu_company"
+            />
+        <item
+            android:id="@+id/wholesaler"
+            android:icon="@drawable/ic_baseline_table_rows_24"
+            android:title="@string/menu_wholesaler"/>
+        <item
+            android:id="@+id/medicine"
+            android:icon="@drawable/ic_baseline_medical_services_24"
+            android:title="@string/menu_medicine"/>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/stock"
+            android:icon="@drawable/ic_baseline_storage_24"
+            android:title="@string/menu_stock"/>
+        <item
+            android:id="@+id/nav_graphics"
+            android:title="@string/menu_graphics"/>
+        <item
+            android:id="@+id/pdfTest"
+            android:title="@string/menu_pdfTest"/>
+
+    </group>
+</menu>

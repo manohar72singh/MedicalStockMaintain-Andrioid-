@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">MedicalShop</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- MEnu ITEMS-->
+    <string name="menu_composition">Composition</string>
+    <string name="menu_company">Company</string>
+    <string name="menu_medicine">Medicine</string>
+    <string name="menu_wholesaler">Wholesaler</string>
+    <string name="menu_stock">Stock</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_graphics">Graphics</string>
+    <string name="menu_pdfTest">Pdf Test</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="date_format">dd-MM-yyyy</string>
+
+    <string-array name="medicine_types">
+        <item>Select Type</item>
+        <item>1*15Cap</item>
+        <item>1*10Cap</item>
+        <item>1*7Cap</item>
+        <item>1*1cap</item>
+        <item>1*10Tab</item>
+        <item>1*15Tab</item>
+        <item>1*3Tab</item>
+        <item>1*1Tab</item>
+        <item>1*7Tab</item>
+        <item>Suspension</item>
+        <item>Drops</item>
+        <item>Injections</item>
+        <item>Ointment</item>
+    </string-array>
+</resources>

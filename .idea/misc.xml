@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/MedicalShop/app/src/main/res/drawable/companydrawable.xml" value="0.21614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/MedicalShop/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.21614583333333334" />
+        <entry key="..\:/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/company_view_recyclerview_item_layout.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/composition_view_recyclerview_item_layot.xml" value="0.11820652173913043" />
+        <entry key="..\:/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/fragment_add_composition.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/fragment_company.xml" value="0.11820652173913043" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/activity_main.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/app_bar_main.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/company_view_recyclerview_item_layout.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/composition_view_recyclerview_item_layot.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/fragment_add_company.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/fragment_add_composition.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/fragment_add_medicine.xml" value="0.15715579710144928" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/fragment_add_medicine_stock.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/fragment_add_wholesaler.xml" value="0.16" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/fragment_graphics.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/fragment_medicine.xml" value="0.1431159420289855" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/fragment_pdf_test.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/fragment_stock.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/fragment_view_composition.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/medicine_viewrecyclerview_item_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/nav_header_main.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/layout/stock_view_recyclerview_item_layot.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MedicalShop/app/src/main/res/menu/main.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

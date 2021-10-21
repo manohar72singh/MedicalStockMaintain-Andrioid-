@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:background="@drawable/companydrawable">
+
+
+
+
+    <TextView
+        android:id="@+id/companyViewRecyclerViewItemItemIdTextView"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="ID"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/companyViewRecyclerViewItemItemNameTextView"
+        android:layout_width="262dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="CompanyName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/companyViewRecyclerViewItemItemIdTextView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/companyViewRecyclerViewItemItemcontectNoTextView"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:text="ContectNo"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/companyViewRecyclerViewItemItemIdTextView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/companyViewRecyclerViewItemItemAddressTextView"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Address"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/companyViewRecyclerViewItemItemcontectNoTextView"
+        app:layout_constraintTop_toBottomOf="@+id/companyViewRecyclerViewItemItemNameTextView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/companyViewRecyclerViewItemItemDeleteTextView"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_baseline_delete_forever_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toEndOf="@+id/companyViewRecyclerViewItemItemNameTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editCompany"
+        android:layout_width="36dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_baseline_edit_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/companyViewRecyclerViewItemItemAddressTextView"
+        app:layout_constraintTop_toBottomOf="@+id/companyViewRecyclerViewItemItemDeleteTextView"
+        app:layout_constraintVertical_bias="0.007" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

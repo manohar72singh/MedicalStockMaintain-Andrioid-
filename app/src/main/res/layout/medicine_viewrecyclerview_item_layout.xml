@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/medicineViewRecyclerviewItemMedicineNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Medicine Name"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/medicineViewRecyclerViewItemCompositionTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/medicineViewRecyclerViewItemCompositionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="Composition"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/medicineViewRecyclerViewItemItemCompanyNameTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medicineViewRecyclerviewItemMedicineNameTextView" />
+
+    <TextView
+        android:id="@+id/medicineViewRecyclerViewItemItemCompanyNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Company Name"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medicineViewRecyclerViewItemCompositionTextView" />
+
+    <TextView
+        android:id="@+id/medicineViewRecyclerViewItemItemTypeNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Type and Strip(Tab,1*10)"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medicineViewRecyclerViewItemItemCompanyNameTextView" />
+
+    <!--<TextView
+        android:id="@+id/textView28"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="2dp"
+        android:gravity="center"
+        android:text="Batch No"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/medicineViewRecyclerViewItemBatchNoTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medicineViewRecyclerViewItemItemTypeNameTextView" />
+
+    <TextView
+        android:id="@+id/medicineViewRecyclerViewItemBatchNoTextView"
+        android:layout_width="260dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView28"
+        app:layout_constraintTop_toBottomOf="@+id/medicineViewRecyclerViewItemItemTypeNameTextView" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="205dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="1dp"
+        android:gravity="center"
+        android:text="Mfg.Date"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/medicineViewRecyclerViewItemMfgTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/medicineViewRecyclerViewItemMfgTextView"
+        android:layout_width="205dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="1dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView25"
+        app:layout_constraintTop_toBottomOf="@+id/medicineViewRecyclerViewItemBatchNoTextView" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="205dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:text="Exp.Date"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/medicineViewRecyclerViewItemExpTextView"
+        android:layout_width="205dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView27"
+        app:layout_constraintTop_toBottomOf="@+id/medicineViewRecyclerViewItemMfgTextView" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
